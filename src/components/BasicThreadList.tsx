@@ -12,6 +12,10 @@ const BasicThreadList: React.FC = () => {
                     <Link to="/thread/1">{'Inspirational Quotes'}</Link>
                     {' by Aiken'}
                 </li>
+                <li>
+                    <Link to="/thread/2">{'Inspirational Quotes'}</Link>
+                    {' by Aiken'}
+                </li>
             </ul>
         </div>
     );

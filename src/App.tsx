@@ -6,6 +6,7 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@material-ui/core';
 import { blue, orange } from '@material-ui/core/colors';
+import Thread2View from './pages/Thread2View';
 
 const theme = createTheme({
     palette: {
@@ -23,6 +24,7 @@ const App: React.FC = () => {
                         <Route path="/thread/1" element={<BasicThreadView />} />
                         <Route path="/thread/1/styled" element={<StyledThreadView />} />
                         <Route path="/" element={<Home />} />
+                        <Route path="/thread/2" element={<Thread2View />} />
                     </Routes>
                 </BrowserRouter>
             </ThemeProvider>
